@@ -41,21 +41,18 @@ Ensure you have the following installed on your machine:
    - Update the `.env` file with your database connection details:
      ```env
      DB_HOST=localhost
-     DB_USER=your_username
-     DB_PASSWORD=your_password
+     DB_USER=<your_username>
+     DB_PASSWORD=<your_password>
      DB_NAME=blogs
      DB_PORT=5432
      ```
-
-4. **Run Database Migrations (if applicable):**
-   If the application includes database schema migrations, execute the relevant script or SQL commands to set up the necessary tables.
-
-5. **Start the Server:**
+     
+4. **Start the Server:**
    ```bash
    node index.js
    ```
-
-6. **Access the Application:**
+   
+5. **Access the Application:**
    Open your browser and navigate to `http://localhost:3000`.
 
 ---
@@ -64,9 +61,10 @@ Ensure you have the following installed on your machine:
 
 ```
 Blog App/
-├── index.js                  # Main entry point of the application
-├── package.json              # Project metadata and dependencies
-├── package-lock.json         # Lock file for dependencies
+├── gifs/                     # GIFs demonstrating app functionality
+│   ├── Add Post.gif
+│   ├── Delete Post.gif
+│   ├── Edit Post.gif
 ├── public/                   # Static assets like CSS files
 │   └── styles/
 │       ├── main.css          # Styling for the main pages
@@ -77,6 +75,9 @@ Blog App/
 │   ├── post.ejs              # Post creation/editing template
 │   └── partials/
 │       └── nav.ejs           # Navigation bar partial
+├── index.js                  # Main entry point of the application
+├── package.json              # Project metadata and dependencies
+├── package-lock.json         # Lock file for dependencies
 ├── .env                      # Environment variables for database configuration
 ```
 
