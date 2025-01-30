@@ -26,7 +26,7 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sambit81/Blog-App.git
    cd Blog-App
    ```
 
